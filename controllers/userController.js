@@ -40,6 +40,7 @@ exports.registerAction = (req, res) => {
     }); //criação do usuário
 };
 
+
 exports.logout = (req, res) => {
     req.logout();
     res.redirect('/');
